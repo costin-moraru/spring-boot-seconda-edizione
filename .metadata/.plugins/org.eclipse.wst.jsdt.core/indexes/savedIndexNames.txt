@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes

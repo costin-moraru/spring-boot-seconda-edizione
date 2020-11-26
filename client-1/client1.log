@@ -1,0 +1,865 @@
+2020-11-26 10:28:04.258  INFO 2265 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 2265 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 10:28:04.266  INFO 2265 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 10:28:04.332  INFO 2265 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 10:28:04.333  INFO 2265 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 10:28:05.585  INFO 2265 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 10:28:05.602  INFO 2265 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 10:28:05.602  INFO 2265 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 10:28:05.662  INFO 2265 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 10:28:05.663  INFO 2265 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1330 ms
+2020-11-26 10:28:05.949  INFO 2265 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:28:06.559  WARN 2265 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 10:28:06.739  INFO 2265 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 10:28:06.962  INFO 2265 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 10:28:06.978  WARN 2265 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-26 10:28:06.984  INFO 2265 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 10:28:07.035  INFO 2265 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 10:28:07.051  INFO 2265 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 3.102 seconds (JVM running for 3.819)
+2020-11-26 10:28:07.153  WARN 2265 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): 401 : [no body]. Further attempts are logged on DEBUG level
+2020-11-26 10:28:09.610  INFO 2265 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 10:28:09.610  INFO 2265 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 10:28:09.611  INFO 2265 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-26 10:29:28.022  INFO 2265 --- [Thread-2] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 10:29:28.055  INFO 2265 --- [Thread-2] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 10:29:28.056  INFO 2265 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:29:28.513  INFO 2265 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 2265 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 10:29:28.514  INFO 2265 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 10:29:28.970  INFO 2265 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 10:29:28.971  INFO 2265 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 10:29:28.971  INFO 2265 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 10:29:28.978  INFO 2265 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 10:29:28.978  INFO 2265 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 460 ms
+2020-11-26 10:29:29.142  INFO 2265 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:29:29.516  WARN 2265 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 10:29:29.581  INFO 2265 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 10:29:29.607  INFO 2265 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 10:29:29.612  WARN 2265 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-26 10:29:29.615  INFO 2265 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 10:29:29.672  INFO 2265 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 10:29:29.683  INFO 2265 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.205 seconds (JVM running for 86.45)
+2020-11-26 10:29:29.686  INFO 2265 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 10:29:29.698  WARN 2265 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): 401 : [no body]. Further attempts are logged on DEBUG level
+2020-11-26 10:30:39.709  INFO 2265 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 10:30:39.712  INFO 2265 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 10:30:39.712  INFO 2265 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:30:40.069  INFO 2265 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 2265 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 10:30:40.072  INFO 2265 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 10:30:40.409  INFO 2265 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 10:30:40.410  INFO 2265 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 10:30:40.411  INFO 2265 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 10:30:40.416  INFO 2265 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 10:30:40.416  INFO 2265 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 341 ms
+2020-11-26 10:30:40.515  INFO 2265 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:30:40.702  WARN 2265 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 10:30:40.779  INFO 2265 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 10:30:40.802  INFO 2265 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 10:30:40.808  WARN 2265 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-26 10:30:40.819  INFO 2265 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 10:30:40.837  INFO 2265 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 10:30:40.849  INFO 2265 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 0.941 seconds (JVM running for 157.615)
+2020-11-26 10:30:40.852  INFO 2265 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 10:30:40.860  WARN 2265 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): 401 : [no body]. Further attempts are logged on DEBUG level
+2020-11-26 10:32:15.728  INFO 2265 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-26 10:32:15.819  INFO 2265 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 10:32:15.820  INFO 2265 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 10:32:15.820  INFO 2265 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:32:54.111  INFO 2331 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 2331 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 10:32:54.116  INFO 2331 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 10:32:54.268  INFO 2331 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 10:32:54.268  INFO 2331 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 10:32:55.869  INFO 2331 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 10:32:56.154  INFO 2331 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 10:32:56.183  INFO 2331 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 10:32:56.304  INFO 2331 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 10:32:56.305  INFO 2331 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2036 ms
+2020-11-26 10:32:57.115  INFO 2331 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:32:57.968  WARN 2331 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 10:32:58.214  INFO 2331 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 10:32:58.774  INFO 2331 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 10:32:58.867  WARN 2331 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-26 10:32:58.975  INFO 2331 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 10:32:59.067  INFO 2331 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 10:32:59.095  INFO 2331 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 5.411 seconds (JVM running for 6.375)
+2020-11-26 10:32:59.243  WARN 2331 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): 403 : [{"timestamp":"2020-11-26T09:32:59.226+00:00","status":403,"error":"Forbidden","message":"Forbidden","path":"/instances"}]. Further attempts are logged on DEBUG level
+2020-11-26 10:33:00.977  INFO 2331 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 10:33:00.978  INFO 2331 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 10:33:00.980  INFO 2331 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-26 10:34:20.119  INFO 2331 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-26 10:34:20.182  INFO 2331 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 10:34:20.183  INFO 2331 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 10:34:20.184  INFO 2331 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:34:27.177  INFO 2359 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 2359 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 10:34:27.181  INFO 2359 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 10:34:27.272  INFO 2359 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 10:34:27.272  INFO 2359 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 10:34:28.888  INFO 2359 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 10:34:28.897  INFO 2359 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 10:34:28.898  INFO 2359 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 10:34:28.961  INFO 2359 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 10:34:28.962  INFO 2359 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1689 ms
+2020-11-26 10:34:29.327  INFO 2359 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:34:29.925  WARN 2359 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 10:34:30.236  INFO 2359 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 10:34:30.362  INFO 2359 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 10:34:30.385  WARN 2359 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-26 10:34:30.391  INFO 2359 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 10:34:30.478  INFO 2359 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 10:34:30.506  INFO 2359 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 3.775 seconds (JVM running for 4.676)
+2020-11-26 10:34:30.630  WARN 2359 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): 403 : [{"timestamp":"2020-11-26T09:34:30.621+00:00","status":403,"error":"Forbidden","message":"Forbidden","path":"/instances"}]. Further attempts are logged on DEBUG level
+2020-11-26 10:34:31.261  INFO 2359 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 10:34:31.261  INFO 2359 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 10:34:31.263  INFO 2359 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-26 10:47:07.946  INFO 2485 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 2485 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 10:47:07.949  INFO 2485 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 10:47:08.002  INFO 2485 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 10:47:08.003  INFO 2485 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 10:47:09.205  INFO 2485 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 10:47:09.224  INFO 2485 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 10:47:09.225  INFO 2485 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 10:47:09.288  INFO 2485 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 10:47:09.289  INFO 2485 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
+2020-11-26 10:47:09.605  INFO 2485 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:47:10.114  WARN 2485 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 10:47:10.377  INFO 2485 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 10:47:10.646  INFO 2485 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 10:47:10.661  WARN 2485 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-26 10:47:10.666  INFO 2485 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 10:47:10.720  INFO 2485 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 10:47:10.738  INFO 2485 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 3.188 seconds (JVM running for 3.979)
+2020-11-26 10:47:11.385  INFO 2485 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as a51164ac99d1
+2020-11-26 10:47:11.566  INFO 2485 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 10:47:11.566  INFO 2485 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 10:47:11.568  INFO 2485 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-26 10:51:46.943  INFO 2485 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-26 10:51:47.026  INFO 2485 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 10:51:47.031  INFO 2485 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 10:51:47.032  INFO 2485 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:52:52.877  INFO 2560 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 2560 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 10:52:52.915  INFO 2560 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 10:52:53.084  INFO 2560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 10:52:53.085  INFO 2560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 10:52:54.400  INFO 2560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 10:52:54.408  INFO 2560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 10:52:54.408  INFO 2560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 10:52:54.452  INFO 2560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 10:52:54.452  INFO 2560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1365 ms
+2020-11-26 10:52:54.785  INFO 2560 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:52:55.329  WARN 2560 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 10:52:55.520  INFO 2560 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 10:52:55.655  INFO 2560 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 10:52:55.684  WARN 2560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-26 10:52:55.691  INFO 2560 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 10:52:55.866  INFO 2560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 10:52:55.891  INFO 2560 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 3.496 seconds (JVM running for 4.405)
+2020-11-26 10:52:56.029  INFO 2560 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as a51164ac99d1
+2020-11-26 10:52:56.048  INFO 2560 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 10:52:56.048  INFO 2560 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 10:52:56.049  INFO 2560 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-26 14:44:08.677  INFO 5363 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5363 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 14:44:08.684  INFO 5363 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 14:44:08.770  INFO 5363 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 14:44:08.770  INFO 5363 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 14:44:10.570  INFO 5363 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 14:44:10.585  INFO 5363 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 14:44:10.586  INFO 5363 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 14:44:10.794  INFO 5363 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 14:44:10.795  INFO 5363 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2023 ms
+2020-11-26 14:44:11.809  INFO 5363 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:44:12.671  INFO 5363 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 14:44:12.918  INFO 5363 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 14:44:12.934  INFO 5363 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 14:44:12.941  INFO 5363 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 14:44:13.036  INFO 5363 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 14:44:13.062  INFO 5363 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 4.984 seconds (JVM running for 5.726)
+2020-11-26 14:44:13.180  WARN 5363 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 14:44:14.325  INFO 5363 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 14:44:14.326  INFO 5363 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 14:44:14.327  INFO 5363 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-26 14:45:31.394  INFO 5363 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-26 14:45:31.456  INFO 5363 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 14:45:31.457  INFO 5363 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 14:45:31.458  INFO 5363 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:48:03.477  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 14:48:03.480  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 14:48:03.555  INFO 5441 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 14:48:03.556  INFO 5441 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 14:48:05.245  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 14:48:05.251  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 14:48:05.252  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 14:48:05.315  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 14:48:05.315  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1757 ms
+2020-11-26 14:48:06.058  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 14:48:06.059  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/login'] with []
+2020-11-26 14:48:06.059  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 14:48:06.059  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 14:48:06.061  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 14:48:06.064  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 14:48:06.065  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 14:48:06.065  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 14:48:06.065  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 14:48:06.065  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 14:48:06.067  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 14:48:06.086  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 14:48:06.089  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 14:48:06.199  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23b0a824, org.springframework.security.web.context.SecurityContextPersistenceFilter@345a4e36, org.springframework.security.web.header.HeaderWriterFilter@63590579, org.springframework.security.web.csrf.CsrfFilter@1c0c3127, org.springframework.security.web.authentication.logout.LogoutFilter@567575cf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3811c9a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d745fbf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c5d4237, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9fad4e4, org.springframework.security.web.session.SessionManagementFilter@787e8517, org.springframework.security.web.access.ExceptionTranslationFilter@9ff1b33, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d047c31]
+2020-11-26 14:48:06.345  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:48:07.267  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 14:48:07.416  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 14:48:07.430  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 14:48:07.446  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 14:48:07.649  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 14:48:07.684  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 4.562 seconds (JVM running for 5.354)
+2020-11-26 14:48:07.773  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 14:48:10.256  INFO 5441 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 14:48:10.256  INFO 5441 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 14:48:10.257  INFO 5441 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-26 14:53:07.234  WARN 5441 --- [http-nio-127.0.0.1-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-11-26 14:53:19.265  WARN 5441 --- [http-nio-127.0.0.1-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-11-26 14:54:07.060  INFO 5441 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 14:54:07.065  INFO 5441 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 14:54:07.066  INFO 5441 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:54:07.658  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 14:54:07.658  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 14:54:08.164  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 14:54:08.166  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 14:54:08.166  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 14:54:08.176  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 14:54:08.176  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 514 ms
+2020-11-26 14:54:08.550  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 14:54:08.551  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/login'] with []
+2020-11-26 14:54:08.551  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 14:54:08.551  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 14:54:08.551  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 14:54:08.551  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 14:54:08.551  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 14:54:08.552  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 14:54:08.552  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 14:54:08.552  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 14:54:08.552  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 14:54:08.552  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 14:54:08.553  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 14:54:08.563  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5026e86d, org.springframework.security.web.context.SecurityContextPersistenceFilter@53e6a390, org.springframework.security.web.header.HeaderWriterFilter@2f19fedc, org.springframework.security.web.csrf.CsrfFilter@7693b66a, org.springframework.security.web.authentication.logout.LogoutFilter@5bf586b4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d058977, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e0822da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e87c2d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@85c4603, org.springframework.security.web.session.SessionManagementFilter@382d6219, org.springframework.security.web.access.ExceptionTranslationFilter@4373d81e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@18de087b]
+2020-11-26 14:54:08.605  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:54:09.051  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 14:54:09.091  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 14:54:09.095  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 14:54:09.097  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 14:54:09.125  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 14:54:09.134  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.693 seconds (JVM running for 366.799)
+2020-11-26 14:54:09.136  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 14:54:09.140  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 14:54:20.149  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 14:54:20.149  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 14:54:20.154  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-11-26 14:54:24.946  WARN 5441 --- [http-nio-127.0.0.1-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-11-26 14:54:36.576  WARN 5441 --- [http-nio-127.0.0.1-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-11-26 14:55:28.114  INFO 5441 --- [Thread-10] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 14:55:28.116  INFO 5441 --- [Thread-10] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 14:55:28.117  INFO 5441 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:55:28.400  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 14:55:28.400  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 14:55:28.866  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 14:55:28.869  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 14:55:28.870  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 14:55:28.876  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 14:55:28.877  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 473 ms
+2020-11-26 14:55:29.267  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 14:55:29.267  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/login'] with []
+2020-11-26 14:55:29.268  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 14:55:29.268  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 14:55:29.268  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 14:55:29.268  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 14:55:29.268  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 14:55:29.268  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 14:55:29.268  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 14:55:29.268  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 14:55:29.269  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 14:55:29.269  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 14:55:29.269  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 14:55:29.273  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f17c63, org.springframework.security.web.context.SecurityContextPersistenceFilter@57337f88, org.springframework.security.web.header.HeaderWriterFilter@28acc201, org.springframework.security.web.csrf.CsrfFilter@386a7251, org.springframework.security.web.authentication.logout.LogoutFilter@3f659cab, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7491d509, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2deba10, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c2cdc80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c971b7a, org.springframework.security.web.session.SessionManagementFilter@3ca07ab7, org.springframework.security.web.access.ExceptionTranslationFilter@70c4bf89, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bea91da]
+2020-11-26 14:55:29.306  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:55:29.614  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 14:55:29.636  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 14:55:29.639  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 14:55:29.642  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 14:55:29.660  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 14:55:29.668  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.297 seconds (JVM running for 447.333)
+2020-11-26 14:55:29.671  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 14:55:29.675  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 14:55:43.235  INFO 5441 --- [Thread-15] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 14:55:43.236  INFO 5441 --- [Thread-15] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 14:55:43.236  INFO 5441 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:55:43.516  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 14:55:43.516  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 14:55:44.137  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 14:55:44.138  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 14:55:44.138  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 14:55:44.142  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 14:55:44.142  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 623 ms
+2020-11-26 14:55:44.484  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 14:55:44.485  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/login'] with []
+2020-11-26 14:55:44.485  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 14:55:44.485  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 14:55:44.485  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 14:55:44.485  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 14:55:44.485  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 14:55:44.485  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 14:55:44.485  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 14:55:44.486  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 14:55:44.486  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 14:55:44.486  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 14:55:44.486  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 14:55:44.490  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41a2f7aa, org.springframework.security.web.context.SecurityContextPersistenceFilter@60402aa6, org.springframework.security.web.header.HeaderWriterFilter@27aa488d, org.springframework.security.web.csrf.CsrfFilter@3216a67, org.springframework.security.web.authentication.logout.LogoutFilter@7405b983, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@702a5737, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5854d5bc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dcf001b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52fc9b51, org.springframework.security.web.session.SessionManagementFilter@683a0794, org.springframework.security.web.access.ExceptionTranslationFilter@916374d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1beedcaa]
+2020-11-26 14:55:44.509  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:55:44.830  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 14:55:44.867  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 14:55:44.871  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 14:55:44.874  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 14:55:44.921  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 14:55:44.932  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.439 seconds (JVM running for 462.596)
+2020-11-26 14:55:44.934  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 14:55:44.937  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 14:56:55.984  INFO 5441 --- [Thread-20] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 14:56:55.986  INFO 5441 --- [Thread-20] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 14:56:55.986  INFO 5441 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:56:56.397  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 14:56:56.397  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 14:56:56.795  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 14:56:56.803  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 14:56:56.803  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 14:56:56.811  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 14:56:56.811  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 412 ms
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/login'] with []
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 14:56:57.275  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 14:56:57.276  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 14:56:57.276  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 14:56:57.276  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 14:56:57.282  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6aa488be, org.springframework.security.web.context.SecurityContextPersistenceFilter@3dd628db, org.springframework.security.web.header.HeaderWriterFilter@62015bd, org.springframework.security.web.csrf.CsrfFilter@67b929ed, org.springframework.security.web.authentication.logout.LogoutFilter@5e826db7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2cb2e72f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33142c65, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@359f4a47, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39b5669, org.springframework.security.web.session.SessionManagementFilter@130e8d16, org.springframework.security.web.access.ExceptionTranslationFilter@1ef207db, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3628956d]
+2020-11-26 14:56:57.332  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:56:57.719  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 14:56:57.807  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 14:56:57.816  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 14:56:57.827  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 14:56:57.867  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 14:56:57.901  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.694 seconds (JVM running for 535.565)
+2020-11-26 14:56:57.909  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 14:56:57.911  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 14:57:14.346  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 14:57:14.346  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 14:57:14.349  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-11-26 14:57:20.399  WARN 5441 --- [http-nio-127.0.0.1-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-11-26 14:57:48.771  INFO 5441 --- [Thread-25] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 14:57:48.772  INFO 5441 --- [Thread-25] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 14:57:48.772  INFO 5441 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:57:48.937  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 14:57:48.938  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 14:57:49.383  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 14:57:49.384  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 14:57:49.384  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 14:57:49.390  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 14:57:49.391  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 452 ms
+2020-11-26 14:57:49.769  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 14:57:49.770  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/login'] with []
+2020-11-26 14:57:49.770  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 14:57:49.770  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 14:57:49.770  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 14:57:49.770  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 14:57:49.770  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 14:57:49.770  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 14:57:49.770  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 14:57:49.771  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 14:57:49.771  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 14:57:49.771  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 14:57:49.771  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 14:57:49.777  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@503fe25c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2074cdea, org.springframework.security.web.header.HeaderWriterFilter@69e43eb4, org.springframework.security.web.csrf.CsrfFilter@9a0822a, org.springframework.security.web.authentication.logout.LogoutFilter@74f406c0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@695b9fe2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52cdfe93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a146be0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10abc06d, org.springframework.security.web.session.SessionManagementFilter@2dc8bbab, org.springframework.security.web.access.ExceptionTranslationFilter@b6f349b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3223caec]
+2020-11-26 14:57:49.797  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:57:50.053  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 14:57:50.082  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 14:57:50.086  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 14:57:50.092  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 14:57:50.107  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 14:57:50.118  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.204 seconds (JVM running for 587.781)
+2020-11-26 14:57:50.120  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 14:57:50.123  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 14:58:17.792  INFO 5441 --- [Thread-30] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 14:58:17.793  INFO 5441 --- [Thread-30] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 14:58:17.794  INFO 5441 --- [Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:58:18.076  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 14:58:18.077  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 14:58:18.488  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 14:58:18.489  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 14:58:18.489  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 14:58:18.493  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 14:58:18.493  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 414 ms
+2020-11-26 14:58:18.791  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 14:58:18.791  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/login'] with []
+2020-11-26 14:58:18.791  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 14:58:18.792  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 14:58:18.795  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54b841e5, org.springframework.security.web.context.SecurityContextPersistenceFilter@265d9129, org.springframework.security.web.header.HeaderWriterFilter@34e3493, org.springframework.security.web.csrf.CsrfFilter@49dae86d, org.springframework.security.web.authentication.logout.LogoutFilter@2eea2a12, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@44f7a1e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7aa420b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@83c69d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27b0992b, org.springframework.security.web.session.SessionManagementFilter@38da9fdf, org.springframework.security.web.access.ExceptionTranslationFilter@46a350da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@374f9fa]
+2020-11-26 14:58:18.811  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:58:19.030  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 14:58:19.056  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 14:58:19.059  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 14:58:19.061  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 14:58:19.090  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 14:58:19.098  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.042 seconds (JVM running for 616.761)
+2020-11-26 14:58:19.100  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 14:58:19.102  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 14:58:27.274  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 14:58:27.275  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 14:58:27.277  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-26 14:58:33.605  WARN 5441 --- [http-nio-127.0.0.1-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-11-26 14:59:16.067  INFO 5441 --- [Thread-35] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 14:59:16.068  INFO 5441 --- [Thread-35] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 14:59:16.069  INFO 5441 --- [Thread-35] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:59:16.472  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 14:59:16.472  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 14:59:16.858  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 14:59:16.859  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 14:59:16.860  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 14:59:16.864  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 14:59:16.865  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 391 ms
+2020-11-26 14:59:17.284  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 14:59:17.284  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/login'] with []
+2020-11-26 14:59:17.291  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 14:59:17.291  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 14:59:17.291  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 14:59:17.291  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 14:59:17.291  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 14:59:17.291  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 14:59:17.292  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 14:59:17.292  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 14:59:17.292  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 14:59:17.292  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 14:59:17.292  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 14:59:17.297  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a670b89, org.springframework.security.web.context.SecurityContextPersistenceFilter@610eabd1, org.springframework.security.web.header.HeaderWriterFilter@4ce80671, org.springframework.security.web.csrf.CsrfFilter@38f1b86e, org.springframework.security.web.authentication.logout.LogoutFilter@2b43617a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1c688072, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d186c10, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21cf2c4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30c5d0c4, org.springframework.security.web.session.SessionManagementFilter@54095bf6, org.springframework.security.web.access.ExceptionTranslationFilter@601599f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5dbc8513]
+2020-11-26 14:59:17.316  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 14:59:17.607  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 14:59:17.631  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 14:59:17.634  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 14:59:17.636  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 14:59:17.656  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 14:59:17.664  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.375 seconds (JVM running for 675.329)
+2020-11-26 14:59:17.666  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 14:59:17.669  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:03:07.096  INFO 5441 --- [Thread-40] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:03:07.098  INFO 5441 --- [Thread-40] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:03:07.098  INFO 5441 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:03:07.428  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:03:07.429  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:03:07.981  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:03:07.982  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:03:07.983  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:03:07.987  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:03:07.987  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 555 ms
+2020-11-26 15:03:08.415  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:03:08.417  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:03:08.422  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30d7eb0a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1276a1da, org.springframework.security.web.header.HeaderWriterFilter@d6fe59, org.springframework.security.web.csrf.CsrfFilter@71966e36, org.springframework.security.web.authentication.logout.LogoutFilter@1bb36093, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@727d9e1c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47717ac2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70626043, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cf13c5, org.springframework.security.web.session.SessionManagementFilter@50d38228, org.springframework.security.web.access.ExceptionTranslationFilter@1648734d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30d8811b]
+2020-11-26 15:03:08.452  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:03:08.732  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:03:08.820  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:03:08.822  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:03:08.826  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:03:08.855  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:03:08.863  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.457 seconds (JVM running for 906.525)
+2020-11-26 15:03:08.865  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 15:03:08.870  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:03:26.442  INFO 5441 --- [Thread-45] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:03:26.444  INFO 5441 --- [Thread-45] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:03:26.444  INFO 5441 --- [Thread-45] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:03:26.622  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:03:26.622  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:03:27.100  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:03:27.101  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:03:27.101  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:03:27.114  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:03:27.114  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 490 ms
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:03:27.421  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:03:27.425  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d009410, org.springframework.security.web.context.SecurityContextPersistenceFilter@5751276f, org.springframework.security.web.header.HeaderWriterFilter@a6d30a9, org.springframework.security.web.csrf.CsrfFilter@1cb43174, org.springframework.security.web.authentication.logout.LogoutFilter@26264441, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@790b45ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d9a0387, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e119ee5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bcdc5d9, org.springframework.security.web.session.SessionManagementFilter@6a5384c0, org.springframework.security.web.access.ExceptionTranslationFilter@434f37dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d27326e]
+2020-11-26 15:03:27.441  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:03:27.787  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:03:27.833  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:03:27.836  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:03:27.838  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:03:27.895  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:03:27.915  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.315 seconds (JVM running for 925.577)
+2020-11-26 15:03:27.918  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 15:03:27.921  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:03:55.560  INFO 5441 --- [Thread-50] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:03:55.561  INFO 5441 --- [Thread-50] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:03:55.561  INFO 5441 --- [Thread-50] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:03:55.812  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:03:55.812  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:03:56.347  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:03:56.348  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:03:56.348  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:03:56.353  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:03:56.353  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 539 ms
+2020-11-26 15:03:56.668  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:03:56.669  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:03:56.669  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:03:56.669  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:03:56.669  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:03:56.669  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:03:56.669  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:03:56.669  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:03:56.669  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:03:56.669  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:03:56.670  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:03:56.670  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:03:56.695  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23c344a5, org.springframework.security.web.context.SecurityContextPersistenceFilter@107cd9ec, org.springframework.security.web.header.HeaderWriterFilter@4ce5c793, org.springframework.security.web.csrf.CsrfFilter@48c339b0, org.springframework.security.web.authentication.logout.LogoutFilter@12316c1a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@148f0d7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c001bf5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ebb96b9, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2b061f09, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f4b495e, org.springframework.security.web.session.SessionManagementFilter@412376c1, org.springframework.security.web.access.ExceptionTranslationFilter@5233d076, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14fe4b03]
+2020-11-26 15:03:56.718  INFO 5441 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:03:56.961  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:03:56.985  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:03:56.988  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:03:56.992  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:03:57.016  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:03:57.024  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.232 seconds (JVM running for 954.686)
+2020-11-26 15:03:57.028  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 15:03:57.031  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:04:02.229  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 15:04:02.230  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 15:04:02.233  INFO 5441 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-11-26 15:04:14.616  INFO 5441 --- [Thread-55] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:04:14.616  INFO 5441 --- [Thread-55] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:04:14.617  INFO 5441 --- [Thread-55] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-26 15:04:15.230  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5441 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:04:15.231  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:04:15.510  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:04:15.511  INFO 5441 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:04:15.511  INFO 5441 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:04:15.517  INFO 5441 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:04:15.517  INFO 5441 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 282 ms
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:04:15.914  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:04:15.918  INFO 5441 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f7f7f61, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d98003e, org.springframework.security.web.header.HeaderWriterFilter@64c6036e, org.springframework.security.web.csrf.CsrfFilter@3474bc92, org.springframework.security.web.authentication.logout.LogoutFilter@6683f635, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c950457, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ebe38b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ab79373, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2d86accd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49fb3b07, org.springframework.security.web.session.SessionManagementFilter@4c19b503, org.springframework.security.web.access.ExceptionTranslationFilter@4ce7f652, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@257e658c]
+2020-11-26 15:04:16.080  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:04:16.104  INFO 5441 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:04:16.111  INFO 5441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:04:16.114  INFO 5441 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:04:16.138  INFO 5441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:04:16.145  INFO 5441 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.129 seconds (JVM running for 973.806)
+2020-11-26 15:04:16.149  INFO 5441 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   WebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport' org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnEnabledResourceChain found class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-11-26 15:04:16.151  WARN 5441 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:04:21.541  INFO 5441 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-26 15:04:21.604  INFO 5441 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:04:21.604  INFO 5441 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:04:25.110  INFO 5709 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5709 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:04:25.113  INFO 5709 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:04:25.195  INFO 5709 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 15:04:25.195  INFO 5709 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 15:04:27.150  INFO 5709 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:04:27.163  INFO 5709 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:04:27.164  INFO 5709 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:04:27.246  INFO 5709 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:04:27.247  INFO 5709 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2051 ms
+2020-11-26 15:04:28.230  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:04:28.231  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:04:28.231  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:04:28.232  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:04:28.233  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:04:28.233  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:04:28.237  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:04:28.240  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:04:28.241  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:04:28.241  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:04:28.241  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:04:28.241  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:04:28.277  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@752d1bca, org.springframework.security.web.context.SecurityContextPersistenceFilter@4bf1c4c3, org.springframework.security.web.header.HeaderWriterFilter@3d702ba2, org.springframework.security.web.csrf.CsrfFilter@1144bf83, org.springframework.security.web.authentication.logout.LogoutFilter@4fb27f5f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a5ce6ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b0b7af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55efb40b, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@250e3271, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1790bd68, org.springframework.security.web.session.SessionManagementFilter@1e9b863, org.springframework.security.web.access.ExceptionTranslationFilter@41955d40, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58cbf1d5]
+2020-11-26 15:04:29.169  INFO 5709 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:04:29.428  INFO 5709 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:04:29.495  INFO 5709 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:04:29.499  INFO 5709 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:04:29.599  INFO 5709 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:04:29.618  INFO 5709 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 4.963 seconds (JVM running for 5.827)
+2020-11-26 15:04:29.736  WARN 5709 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:04:30.909  INFO 5709 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 15:04:30.910  INFO 5709 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 15:04:30.912  INFO 5709 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-26 15:05:14.355  INFO 5709 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:05:14.358  INFO 5709 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:05:14.573  INFO 5709 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5709 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:05:14.574  INFO 5709 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:05:15.075  INFO 5709 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:05:15.076  INFO 5709 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:05:15.077  INFO 5709 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:05:15.082  INFO 5709 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:05:15.082  INFO 5709 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 506 ms
+2020-11-26 15:05:15.413  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:05:15.413  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:05:15.413  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:05:15.413  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:05:15.413  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:05:15.413  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:05:15.413  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:05:15.414  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:05:15.414  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:05:15.414  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:05:15.414  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:05:15.414  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:05:15.417  INFO 5709 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c31f16d, org.springframework.security.web.context.SecurityContextPersistenceFilter@111e246c, org.springframework.security.web.header.HeaderWriterFilter@61e36671, org.springframework.security.web.authentication.logout.LogoutFilter@66cdecaf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5f30eb62, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@210e1be2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b24315c, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@6dabca3f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3910125b, org.springframework.security.web.session.SessionManagementFilter@3d1c0ebb, org.springframework.security.web.access.ExceptionTranslationFilter@584d0da0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67205c8c]
+2020-11-26 15:05:15.674  INFO 5709 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:05:15.705  INFO 5709 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:05:15.712  INFO 5709 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:05:15.715  INFO 5709 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:05:15.745  INFO 5709 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:05:15.763  INFO 5709 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.219 seconds (JVM running for 51.972)
+2020-11-26 15:05:15.768  INFO 5709 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 15:05:15.772  WARN 5709 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:05:25.139  INFO 5709 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 15:05:25.140  INFO 5709 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 15:05:25.142  INFO 5709 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-26 15:05:29.830  WARN 5709 --- [http-nio-127.0.0.1-8081-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /
+2020-11-26 15:06:23.305  INFO 5709 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-26 15:06:23.369  INFO 5709 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:06:23.370  INFO 5709 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:06:31.434  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5773 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:06:31.439  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:06:31.606  INFO 5773 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 15:06:31.607  INFO 5773 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 15:06:34.051  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:06:34.059  INFO 5773 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:06:34.059  INFO 5773 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:06:34.177  INFO 5773 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:06:34.179  INFO 5773 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2571 ms
+2020-11-26 15:06:34.942  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:06:34.943  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:06:34.943  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:06:34.943  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:06:34.943  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:06:34.943  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:06:34.944  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:06:34.944  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:06:34.944  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:06:34.944  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:06:34.944  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:06:34.944  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:06:34.974  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@584edfc4, org.springframework.security.web.context.SecurityContextPersistenceFilter@67610da7, org.springframework.security.web.header.HeaderWriterFilter@3e6b5afa, org.springframework.security.web.authentication.logout.LogoutFilter@1daf5305, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58cbf1d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7329ecbf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b0b7af, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@197693e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5798a64b, org.springframework.security.web.session.SessionManagementFilter@393177ea, org.springframework.security.web.access.ExceptionTranslationFilter@344c5979, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@50548ec1]
+2020-11-26 15:06:35.860  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:06:35.990  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:06:36.075  INFO 5773 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:06:36.087  INFO 5773 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:06:36.198  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:06:36.232  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 5.521 seconds (JVM running for 6.683)
+2020-11-26 15:06:36.357  WARN 5773 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:06:36.500  INFO 5773 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 15:06:36.501  INFO 5773 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 15:06:36.504  INFO 5773 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-11-26 15:07:10.303  WARN 5773 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /
+2020-11-26 15:07:35.049  INFO 5773 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:07:35.055  INFO 5773 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:07:35.306  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5773 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:07:35.307  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:07:36.199  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:07:36.201  INFO 5773 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:07:36.201  INFO 5773 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:07:36.227  INFO 5773 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:07:36.227  INFO 5773 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 916 ms
+2020-11-26 15:07:36.710  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:07:36.711  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:07:36.711  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:07:36.712  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:07:36.712  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:07:36.712  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:07:36.712  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:07:36.712  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:07:36.712  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:07:36.714  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:07:36.715  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:07:36.715  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:07:36.746  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@230a160c, org.springframework.security.web.context.SecurityContextPersistenceFilter@4be87476, org.springframework.security.web.header.HeaderWriterFilter@5e4b1e8c, org.springframework.security.web.authentication.logout.LogoutFilter@285ef985, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@773fb538, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7da126e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b18f8a0, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@7affa827, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66c27efb, org.springframework.security.web.session.SessionManagementFilter@4603bbbc, org.springframework.security.web.access.ExceptionTranslationFilter@7999fcd9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77465977]
+2020-11-26 15:07:37.165  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:07:37.227  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:07:37.244  INFO 5773 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:07:37.249  INFO 5773 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:07:37.276  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:07:37.286  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 2.008 seconds (JVM running for 67.736)
+2020-11-26 15:07:37.290  INFO 5773 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 15:07:37.294  WARN 5773 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:08:12.026  INFO 5773 --- [Thread-10] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:08:12.027  INFO 5773 --- [Thread-10] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:08:12.226  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5773 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:08:12.227  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:08:12.628  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:08:12.628  INFO 5773 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:08:12.629  INFO 5773 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:08:12.636  INFO 5773 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:08:12.636  INFO 5773 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 407 ms
+2020-11-26 15:08:12.955  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:08:12.955  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:08:12.955  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:08:12.956  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:08:12.956  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:08:12.956  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:08:12.956  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:08:12.956  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:08:12.956  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:08:12.956  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:08:12.956  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:08:12.956  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:08:12.960  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f6a7c81, org.springframework.security.web.context.SecurityContextPersistenceFilter@383542f2, org.springframework.security.web.header.HeaderWriterFilter@5eab674d, org.springframework.security.web.authentication.logout.LogoutFilter@474f0ef5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@18f2e768, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f8a4e68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a9edddb, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@25551c29, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2256c86c, org.springframework.security.web.session.SessionManagementFilter@6a0aaa98, org.springframework.security.web.access.ExceptionTranslationFilter@6f370bef, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d301626]
+2020-11-26 15:08:13.170  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:08:13.200  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:08:13.221  INFO 5773 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:08:13.231  INFO 5773 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:08:13.265  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:08:13.272  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.067 seconds (JVM running for 103.722)
+2020-11-26 15:08:13.276  INFO 5773 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 15:08:13.282  WARN 5773 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:08:16.248  INFO 5773 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 15:08:16.250  INFO 5773 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 15:08:16.252  INFO 5773 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-26 15:09:11.248  INFO 5773 --- [Thread-15] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:09:11.249  INFO 5773 --- [Thread-15] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:09:11.657  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5773 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:09:11.657  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:09:12.065  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:09:12.067  INFO 5773 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:09:12.068  INFO 5773 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:09:12.073  INFO 5773 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:09:12.073  INFO 5773 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 414 ms
+2020-11-26 15:09:12.463  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:09:12.464  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:09:12.468  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fa704bd, org.springframework.security.web.context.SecurityContextPersistenceFilter@35be7511, org.springframework.security.web.header.HeaderWriterFilter@4bf19958, org.springframework.security.web.authentication.logout.LogoutFilter@7d8ba718, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5f11ffd8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b1119ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c6d6e9c, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4cbada7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70eac9c6, org.springframework.security.web.session.SessionManagementFilter@ceb6157, org.springframework.security.web.access.ExceptionTranslationFilter@54694b02, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c827a1d]
+2020-11-26 15:09:12.691  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:09:12.754  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:09:12.768  INFO 5773 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:09:12.770  INFO 5773 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:09:12.784  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:09:12.792  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.303 seconds (JVM running for 163.241)
+2020-11-26 15:09:12.794  INFO 5773 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 15:09:12.798  WARN 5773 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:09:19.299  INFO 5773 --- [Thread-20] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 15:09:19.299  INFO 5773 --- [Thread-20] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 15:09:19.513  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Starting Client1Application using Java 1.8.0_251 on MacBook-Pro.local with PID 5773 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-1)
+2020-11-26 15:09:19.513  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : No active profile set, falling back to default profiles: default
+2020-11-26 15:09:19.884  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-26 15:09:19.885  INFO 5773 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 15:09:19.885  INFO 5773 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 15:09:19.890  INFO 5773 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 15:09:19.890  INFO 5773 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 375 ms
+2020-11-26 15:09:20.237  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/'] with []
+2020-11-26 15:09:20.238  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='index'] with []
+2020-11-26 15:09:20.244  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='js'] with []
+2020-11-26 15:09:20.246  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='css'] with []
+2020-11-26 15:09:20.246  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='images'] with []
+2020-11-26 15:09:20.246  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/**', OPTIONS] with []
+2020-11-26 15:09:20.246  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/app/**/*.{js,html}'] with []
+2020-11-26 15:09:20.246  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/i18n/**'] with []
+2020-11-26 15:09:20.246  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/content/**'] with []
+2020-11-26 15:09:20.247  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2020-11-26 15:09:20.247  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/index.html'] with []
+2020-11-26 15:09:20.249  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/test/**'] with []
+2020-11-26 15:09:20.254  INFO 5773 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@386a2c41, org.springframework.security.web.context.SecurityContextPersistenceFilter@30563f79, org.springframework.security.web.header.HeaderWriterFilter@6712643, org.springframework.security.web.authentication.logout.LogoutFilter@46ec16aa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@314c31e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79139630, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76dfe46f, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1744b691, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@482dd134, org.springframework.security.web.session.SessionManagementFilter@7fa9d0e8, org.springframework.security.web.access.ExceptionTranslationFilter@7417b370, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31e7525]
+2020-11-26 15:09:20.438  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 15:09:20.477  INFO 5773 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 15:09:20.485  INFO 5773 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-26 15:09:20.488  INFO 5773 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 15:09:20.504  INFO 5773 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-26 15:09:20.517  INFO 5773 --- [restartedMain] com.example.client1.Client1Application   : Started Client1Application in 1.021 seconds (JVM running for 170.967)
+2020-11-26 15:09:20.520  INFO 5773 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-26 15:09:20.523  WARN 5773 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client1, managementUrl=http://127.0.0.1:8081/actuator, healthUrl=http://127.0.0.1:8081/actuator/health, serviceUrl=http://127.0.0.1:8081/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2020-11-26 15:09:24.642  INFO 5773 --- [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 15:09:24.643  INFO 5773 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 15:09:24.645  INFO 5773 --- [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

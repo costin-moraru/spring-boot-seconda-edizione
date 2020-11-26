@@ -1,0 +1,25 @@
+2020-11-26 10:28:27.383  INFO 2270 --- [restartedMain] com.example.client2.Client2Application   : Starting Client2Application using Java 1.8.0_251 on MacBook-Pro.local with PID 2270 (/Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-2/target/classes started by costinmoraru in /Users/costinmoraru/workspace/corso-spring-boot/corso-spring-boot2/client-2)
+2020-11-26 10:28:27.386  INFO 2270 --- [restartedMain] com.example.client2.Client2Application   : No active profile set, falling back to default profiles: default
+2020-11-26 10:28:27.464  INFO 2270 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-26 10:28:27.465  INFO 2270 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-26 10:28:28.586  INFO 2270 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-11-26 10:28:28.593  INFO 2270 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 10:28:28.593  INFO 2270 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 10:28:28.656  INFO 2270 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 10:28:28.656  INFO 2270 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1191 ms
+2020-11-26 10:28:28.942  INFO 2270 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 10:28:29.438  WARN 2270 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-26 10:28:29.606  INFO 2270 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-11-26 10:28:29.839  INFO 2270 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-26 10:28:29.854  WARN 2270 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-26 10:28:29.858  INFO 2270 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-11-26 10:28:29.910  INFO 2270 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-11-26 10:28:29.927  INFO 2270 --- [restartedMain] com.example.client2.Client2Application   : Started Client2Application in 2.929 seconds (JVM running for 4.189)
+2020-11-26 10:28:30.008  WARN 2270 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=client2, managementUrl=http://127.0.0.1:8082/actuator, healthUrl=http://127.0.0.1:8082/actuator/health, serviceUrl=http://127.0.0.1:8082/) at spring-boot-admin ([http://localhost:8080/instances]): 401 : [no body]. Further attempts are logged on DEBUG level
+2020-11-26 10:28:32.686  INFO 2270 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 10:28:32.687  INFO 2270 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 10:28:32.689  INFO 2270 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-26 10:32:15.147  INFO 2270 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-26 10:32:15.235  INFO 2270 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-26 10:32:15.239  INFO 2270 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2020-11-26 10:32:15.240  INFO 2270 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,5 @@
+package com.example.client2.rest;
+
+public class InfoController {
+
+}
