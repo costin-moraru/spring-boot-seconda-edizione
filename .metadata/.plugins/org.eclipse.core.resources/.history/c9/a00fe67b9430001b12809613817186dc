@@ -1,0 +1,5 @@
+package com.example.client1.rest;
+
+public class UsersController {
+
+}

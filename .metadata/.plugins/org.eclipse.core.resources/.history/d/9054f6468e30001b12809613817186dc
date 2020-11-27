@@ -1,0 +1,7 @@
+package com.example.client1.model;
+
+public class Authority {
+	
+	private String name;
+
+}

@@ -1,0 +1,23 @@
+
+server.port=8081
+server.address=127.0.0.1
+# Per una best practice assegnare un nome, non lasciare quello di default
+spring.application.name=client1
+
+# Esporre tutti gi endpoint di sping boot actuator
+management.endpoints.web.exposure.include=*
+# Indichiamo dove si trova il server di spring boot admin
+spring.boot.admin.client.url=http://localhost:8080
+spring.boot.admin.client.instance.prefer-ip=true
+
+logging.file.name=client1.log
+management.endpoint.logfile.external-file=client1.log
+
+# Config datasource
+spring.datasource.url=jdbc:h2:mem:springapp;DATABASE_TO_UPPER=false
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl

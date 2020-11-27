@@ -1,0 +1,79 @@
+package com.example.client1.model;
+
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.Table;
+
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
+@Entity
+@Table(name = "users")
+public class MyUserDetails implements UserDetails{
+	
+	private String username;
+	
+	private String password;
+	
+	private boolean accountNonExpired = false;
+	
+	private boolean accountNonLocked = false;
+	
+	private boolean credentialsNonExpired = false;
+	
+	private boolean enabled = false;
+	
+   @JoinTable(
+        name = "authorities",
+        joinColumns = {@JoinColumn(name = "username", referencedColumnName = "username")},
+        inverseJoinColumns = {@JoinColumn(name = "authority", referencedColumnName = "name")})
+	private Set<Authority> authorities = new HashSet<>();
+
+	@Override
+	public Collection<? extends GrantedAuthority> getAuthorities() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getPassword() {
+		// TODO Auto-generated method stub
+		return password;
+	}
+
+	@Override
+	public String getUsername() {
+		// TODO Auto-generated method stub
+		return username;
+	}
+
+	@Override
+	public boolean isAccountNonExpired() {
+		// TODO Auto-generated method stub
+		return accountNonExpired;
+	}
+
+	@Override
+	public boolean isAccountNonLocked() {
+		// TODO Auto-generated method stub
+		return accountNonLocked;
+	}
+
+	@Override
+	public boolean isCredentialsNonExpired() {
+		// TODO Auto-generated method stub
+		return credentialsNonExpired;
+	}
+
+	@Override
+	public boolean isEnabled() {
+		// TODO Auto-generated method stub
+		return enabled;
+	}
+
+}

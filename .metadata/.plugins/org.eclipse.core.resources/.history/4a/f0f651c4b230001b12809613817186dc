@@ -1,0 +1,44 @@
+package com.example.client1.security.filter;
+
+import java.io.IOException;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.AuthenticationException;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+import com.example.client1.security.UsernamePasswordAuthModel;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class UsernameAndPasswordJwtFilter extends UsernamePasswordAuthenticationFilter {
+	
+	private final AuthenticationManager authenticationManager;
+
+	public UsernameAndPasswordJwtFilter(AuthenticationManager authenticationManager) {
+		this.authenticationManager = authenticationManager;
+	}
+
+	@Override
+	public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response)
+			throws AuthenticationException {
+		
+		try {
+			UsernamePasswordAuthModel authBody = new ObjectMapper().readValue(request.getInputStream(), UsernamePasswordAuthModel.class);
+			Authentication authentication = new UsernamePasswordAuthenticationToken(
+					authBody.getUsername(), 
+					authBody.getPassword()
+					);
+			Authentication resultAuthentication = authenticationManager.authenticate(authentication);
+			return resultAuthentication;
+		}  catch (IOException e) {
+			throw new RuntimeException();
+		}
+	}
+	
+	
+
+}

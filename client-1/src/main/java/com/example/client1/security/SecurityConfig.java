@@ -1,25 +1,42 @@
 package com.example.client1.security;
 
+import javax.sql.DataSource;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.provisioning.JdbcUserDetailsManager;
+
+import com.example.client1.security.filter.JwtCheckTokenFilter;
+import com.example.client1.security.filter.UsernameAndPasswordJwtFilter;
 
 @Configuration
 @EnableWebSecurity
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Autowired
 	private PasswordEncoder passwordEncoder;
+	
+	@Autowired
+	private DataSource dataSource;
+	
+	@Autowired
+	private MyUserDetailsService myUserDetailsService;
 
 	@Override
 	public void configure(WebSecurity web) throws Exception {
@@ -39,38 +56,60 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http
 //			.csrf().ignoringAntMatchers("/instances/**")
 			.csrf().disable()
+			.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+			.and()
+			.addFilter(new UsernameAndPasswordJwtFilter(authenticationManager()))
+			.addFilterAfter(new JwtCheckTokenFilter(), UsernameAndPasswordJwtFilter.class)
 			.authorizeRequests()
-			.antMatchers("/area-riservata/**").hasRole("ADMIN")
 			.anyRequest().authenticated()
 			.and()
 			.formLogin()
 				.loginPage("/login").permitAll()
+				.defaultSuccessUrl("/area-riservata", true)
 			.and()
 			.rememberMe()
 			.and()
-			.logout();
+			.logout().logoutSuccessUrl("/")
+			.and()
+			.httpBasic();
+	}
+	
+	
+	
+	@Override
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+		auth.authenticationProvider(daoAuthenticationProvider());
 	}
 
-	@Override
 	@Bean
-	protected UserDetailsService userDetailsService() {
-		UserDetails user = User.builder()
-				.username("user")
-				.password(passwordEncoder.encode("user"))
-				.roles("USER") // ROLE_USER
-				.build();
-		
-		UserDetails admin = User.builder()
-				.username("admin")
-				.password(passwordEncoder.encode("admin"))
-				.roles("ADMIN") // ROLE_ADMIN
-				.build();
-		
-		return new InMemoryUserDetailsManager(
-					user,
-					admin
-				);
+	public DaoAuthenticationProvider daoAuthenticationProvider() {
+		DaoAuthenticationProvider daoAuthenticationProvider = new DaoAuthenticationProvider();
+		daoAuthenticationProvider.setPasswordEncoder(passwordEncoder);
+		daoAuthenticationProvider.setUserDetailsService(myUserDetailsService);
+		return daoAuthenticationProvider;
 	}
+
+//	@Override
+//	@Bean
+//	protected UserDetailsService userDetailsService() {
+//		return new JdbcUserDetailsManager(dataSource);
+//		UserDetails user = User.builder()
+//				.username("user")
+//				.password(passwordEncoder.encode("user"))
+//				.roles("USER") // ROLE_USER
+//				.build();
+//		
+//		UserDetails admin = User.builder()
+//				.username("admin")
+//				.password(passwordEncoder.encode("admin"))
+//				.roles("ADMIN", "USER") // ROLE_ADMIN
+//				.build();
+//		
+//		return new InMemoryUserDetailsManager(
+//					user,
+//					admin
+//				);
+//	}
 	
 	
 
